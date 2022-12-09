@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 619e305f5165a9946b7f72464e44ca4a, type: 3}
   m_Sun: {fileID: 2114283754330233425}
-  m_IndirectSpecularColor: {r: 0.02915215, g: 0.064445496, b: 0.12695035, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -78685,10 +78685,8 @@ MonoBehaviour:
   m_VersionIndex: 875
   m_IsSelectable: 1
   m_SelectedFaces: 
-  m_SelectedEdges:
-  - a: 6893
-    b: 6895
-  m_SelectedVertices: ed1a0000ef1a0000
+  m_SelectedEdges: []
+  m_SelectedVertices: 
 --- !u!4 &1769566556
 Transform:
   m_ObjectHideFlags: 0
