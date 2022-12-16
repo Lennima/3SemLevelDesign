@@ -13,6 +13,7 @@ public class TriggerManager : MonoBehaviour
     private void Start()
     {
         controller = GetComponent<CharacterController>();
+	  CheckPointManager.SetSpawn(respawnPoint);
     }
     void Update()
     {
@@ -30,7 +31,7 @@ public class TriggerManager : MonoBehaviour
         if (other.gameObject.tag == "Death")
         {
             controller.enabled = false;
-            gameObject.transform.position = respawnPoint.transform.position;
+            gameObject.transform.position = CheckPointManager.GetSpawn().position;
             controller.enabled = true;
         }
     }
